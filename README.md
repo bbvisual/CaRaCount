@@ -1,5 +1,5 @@
 # CaRaCount
-This repository contains the official code and data for [Class-Agnostic Repetitive Action Counting Using Wearable Devices](https://ieeexplore.ieee.org/abstract/document/10452869) (TPAMI2025).
+This repository contains the official code and data for [Class-Agnostic Repetitive Action Counting Using Wearable Devices](https://github.com/bbvisual/CaRaCount) (TPAMI2025).
 
 
 ## Overview
