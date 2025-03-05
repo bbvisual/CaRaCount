@@ -3,20 +3,16 @@ This repository contains the official code and data for [Class-Agnostic Repetiti
 
 
 ## Overview
-Our work uses audio cues as exemplar to perform few-shot repetitive action counting in the wild on smartwatch data.
+We introduce **CaRaCount**, a **class-agnostic**, **few-shot** approach for repetitive action counting using **wearable sensor data**. Unlike existing methods that require extensive training data and predefined action classes, **CaRaCount** can accurately count repetitions of any action using only a short exemplar sequence. To support this research, we also present the **CaRa dataset**, a large-scale multivariate time-series dataset collected from smartwatches, encompassing **50 action categories across 6 superclasses**.
 
 ![Teaser](./assest/teaser.png)
 
-## Get Started
-
-Setup environment:
+## Installation
 ```bash
-conda create -n adafocus python=3.9
-conda activate adafocus
-conda install pytorch=1.12.1 torchvision=0.13.1 -c pytorch
-pip install numpy==1.26.0 tensorboardX
-# if you are trying Uni-AdaFocus-X3D, run the following line
-pip install iopath simplejson fvcore pytorchvideo psutil matplotlib opencv-python scipy pandas
+conda create -n caracount python=3.10
+conda activate caracount
+pip install torch
+pip install numpy matplotlib pandas scikit-learn scipy
 ```
 
 ## Reference
@@ -31,7 +27,7 @@ If you find our code or papers useful for your research, please cite:
 
 @inproceedings{yifeng_exrac_aaai_2024,
      title = {Count What You Want: Exemplar Identification and Few-Shot Counting of Human Actions in the Wild},
-    author = {Duc Duy Nguyen, Lam Thanh Nguyen, Yifeng Huang, Cuong Pham, Minh Hoai},
+    author = { Yifeng Huang, Duc Duy Nguyen, Lam Thanh Nguyen, Cuong Pham, Minh Hoai},
  booktitle = {Proceedings of AAAI Conference on Artificial Intelligence (AAAI)},
       year = {2024}
 }
