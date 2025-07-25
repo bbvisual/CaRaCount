@@ -18,19 +18,20 @@ pip install numpy matplotlib pandas scikit-learn scipy
 ## Reference
 If you find our code or papers useful for your research, please cite:
 ```
-@article{duc_caracount_tpami_2025,
-     title = {Class-Agnostic Repetitive Action Counting Using Wearable Devices},
-    author = {Duc Duy Nguyen, Lam Thanh Nguyen, Yifeng Huang, Cuong Pham, Minh Hoai},
-   journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-      year = {2025},
-}
 
-@inproceedings{yifeng_exrac_aaai_2024,
-     title = {Count What You Want: Exemplar Identification and Few-Shot Counting of Human Actions in the Wild},
-    author = { Yifeng Huang, Duc Duy Nguyen, Lam Thanh Nguyen, Cuong Pham, Minh Hoai},
- booktitle = {Proceedings of AAAI Conference on Artificial Intelligence (AAAI)},
-      year = {2024}
-}
+@article{duc_caracount_tpami_2025,
+  author={Nguyen, Duc Duy and Nguyen, Lam Thanh and Huang, Yifeng and Pham, Cuong and Hoai, Minh},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}, 
+  title={Class-Agnostic Repetitive Action Counting Using Wearable Devices}, 
+  year={2025},
+  volume={47},
+  number={6}}
+
+@inproceedings{yifeng_exrac_aaai_2024, 
+    title={Count What You Want: Exemplar Identification and Few-Shot Counting of Human Actions in the Wild}, 
+    author={Huang, Yifeng and Nguyen, Duc Duy and Nguyen, Lam and Pham, Cuong and Hoai, Minh},
+    booktitle={Proceedings of AAAI Conference on Artificial Intelligence (AAAI)},
+    year={2024}}
 ```
 
 ## Contact
