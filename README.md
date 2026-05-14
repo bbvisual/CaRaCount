@@ -15,7 +15,7 @@ pip install torch
 pip install numpy matplotlib pandas scikit-learn scipy
 ```
 
-## Reference
+## Citation
 If you find our code or papers useful for your research, please cite:
 ```
 
