@@ -34,6 +34,13 @@ If you find our code or papers useful for your research, please cite:
     year={2024}}
 ```
 
+## License
+
+The dataset is licensed under the Creative Commons
+Attribution 4.0 International (CC BY 4.0) License.
+
+For details, see the [LICENSE](LICENSE) file.
+
 ## Contact
 If you have any question, feel free to contact the author. 
 
